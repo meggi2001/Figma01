@@ -1,0 +1,38 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.nav_container{
+    width: 500px;
+}
+.list_container{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.list_container{
+    color: #9893a3;
+}
+.li.active{
+    color:black;
+    padding-bottom: 5px;
+    border-bottom: 4px solid #9E99FF
+}
+.Login{
+    width: 102px;
+    height: 51px;
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #6C63FF;
+}
+.Get_started{
+    width: 102px;
+    height: 51px;
+    border-radius: 2px;
+    background-color: #6C63FF;
+    color: white
+    border: none
+}
